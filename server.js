@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-app.get('/', (req, res) => res.send('Hello World!'));
-
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://MaKu:Maku1992@ds121251.mlab.com:21251/db_kodilla_course'); 
 
